@@ -1,15 +1,12 @@
 #!/bin/bash
 
-# Dosya yolu
 domain_file="/home/domains.txt"
-
 
 declare -a domains=()
 
 while IFS= read -r domain || [ -n "$domain" ]; do
   domains+=("$domain")
 done < "$domain_file"
-
 
 for domain in "${domains[@]}"; do
   
