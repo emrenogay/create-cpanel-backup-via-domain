@@ -1,2 +1,2 @@
-# create-cpanel-backup-via-domain
-Create cPanel Bulk Backups With Using Domain
+# Create cPanel Bulk Backups Via Using Domain
+Create domains.txt file in /home directory. Add your domains. One domain for every single line.
